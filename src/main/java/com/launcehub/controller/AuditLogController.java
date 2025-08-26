@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/audit-logs")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "frontendfreelancehariharan.vercel.app")
 public class AuditLogController {
 
     @Autowired
