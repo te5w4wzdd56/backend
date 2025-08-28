@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/notifications")
-@CrossOrigin(origins = "frontendfreelancehariharan.vercel.app")
+@CrossOrigin(origins = "https://frontendfreelancehariharan.vercel.app")
 public class NotificationController {
 
     @Autowired
