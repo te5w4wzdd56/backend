@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/freelancers")
-@CrossOrigin(origins = "frontendfreelancehariharan.vercel.app")
+@CrossOrigin(origins = "https://frontendfreelancehariharan.vercel.app")
 public class FreelancerProfileController {
 
     @Autowired
